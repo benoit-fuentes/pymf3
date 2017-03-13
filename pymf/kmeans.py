@@ -6,8 +6,8 @@ PyMF K-means clustering (unary-convex matrix factorization).
 import numpy as np
 import random
 
-import dist
-from base import PyMFBase
+import pymf.dist
+from .base import PyMFBase
 
 __all__ = ["Kmeans"]
 
@@ -61,7 +61,7 @@ class Kmeans(PyMFBase):
          
     def _init_w(self):
         # set W to some random data samples
-        sel = random.sample(xrange(self._num_samples), self._num_bases)
+        sel = random.sample(range(self._num_samples), self._num_bases)
         
         # sort indices, otherwise h5py won't work
         self.W = self.data[:, np.sort(sel)]        

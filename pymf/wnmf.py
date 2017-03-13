@@ -9,7 +9,7 @@ PyMF Non-negative Matrix Factorization.
 Matrix Factorization, Nature 401(6755), 788-799.
 """
 import numpy as np
-from base import PyMFBase
+from .base import PyMFBase
 import scipy
 
 __all__ = ["WNMF"]

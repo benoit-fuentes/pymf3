@@ -11,9 +11,9 @@ Conf. on Information and Knowledge Management. ACM. 2010.
 """
 import logging
 import numpy as np
-from dist import *
-from base import cmdet
-from sivm import SIVM
+from .dist import *
+from .base import cmdet
+from .sivm import SIVM
 
 __all__ = ["SIVM_GSAT"]
 
@@ -160,7 +160,7 @@ class SIVM_GSAT(SIVM):
         if compute_err:
             self.ferr = np.zeros(niter)
              
-        for i in xrange(niter):
+        for i in range(niter):
             if compute_w:
                 self._update_w()
 

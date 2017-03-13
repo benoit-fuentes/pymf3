@@ -12,8 +12,8 @@ preprocessing-time and memory requirements. Pattern Recognition Letters 1994.
 import scipy.sparse
 import numpy as np
 
-from dist import *
-from sivm import SIVM
+from .dist import *
+from .sivm import SIVM
 
 __all__ = ["LAESA"]
 

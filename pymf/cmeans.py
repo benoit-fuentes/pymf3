@@ -8,8 +8,8 @@ Plenum Press, New York 1981.
 """
 import numpy as np
 
-import dist
-from base import PyMFBase
+import pymf.dist
+from .base import PyMFBase
 
 __all__ = ["Cmeans"]
 

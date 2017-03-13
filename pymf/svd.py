@@ -12,7 +12,7 @@ import time
 import scipy.sparse
 import numpy as np
 
-from base import PyMFBase3, eighk
+from .base import PyMFBase3, eighk
 
 try:
     import scipy.sparse.linalg.eigen.arpack as linalg

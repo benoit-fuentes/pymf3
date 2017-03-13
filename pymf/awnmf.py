@@ -8,7 +8,7 @@ PyMF Non-negative Matrix Factorization.
 A horrible mess devised by Rikk
 """
 import numpy as np
-from base import PyMFBase
+from .base import PyMFBase
 import scipy
 
 __all__ = ["AWNMF"]

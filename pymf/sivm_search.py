@@ -12,9 +12,9 @@ Conf. on Information and Knowledge Management. ACM. 2010.
 import scipy.sparse
 import numpy as np
 
-from dist import pdist
-from base import *
-from sivm import SIVM
+from .dist import pdist
+from .base import *
+from .sivm import SIVM
 
 __all__ = ["SIVM_SEARCH"]
 

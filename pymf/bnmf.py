@@ -9,7 +9,7 @@ PyMF Binary Matrix Factorization [1]
 Applications. ICDM 2007
 """
 import numpy as np
-from base import PyMFBase
+from .base import PyMFBase
 
 __all__ = ["BNMF"]
 
