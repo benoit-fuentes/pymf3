@@ -6,7 +6,7 @@ PyMF K-means clustering (unary-convex matrix factorization).
 import numpy as np
 import random
 
-import pymf.dist
+from . import dist
 from .base import PyMFBase
 
 __all__ = ["Kmeans"]
